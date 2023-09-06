@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_textSize">24sp</dimen>
+    <dimen name="et_marginHorizontal">20dp</dimen>
+    <dimen name="et_marginTop">10dp</dimen>
+    <dimen name="btn_marginTop">6dp</dimen>
+    <dimen name="btn_textSize">20sp</dimen>
+    <dimen name="rv_marginTop">20dp</dimen>
+    <dimen name="tv_marginHorizontal">10dp</dimen>
+    <dimen name="todoTitleTextSize_tv">22sp</dimen>
+    <dimen name="todoDescriptionTextSize_tv">18sp</dimen>
+</resources>

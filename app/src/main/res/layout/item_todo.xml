@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/displayTodoTitle_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/todoTitleTextSize_tv"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="@dimen/tv_marginHorizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title"/>
+
+    <TextView
+        android:id="@+id/displayTodoDescription_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/tv_marginHorizontal"
+        android:textSize="@dimen/todoDescriptionTextSize_tv"
+        app:layout_constraintTop_toBottomOf="@+id/displayTodoTitle_tv"
+        tools:text="Some todo description"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
